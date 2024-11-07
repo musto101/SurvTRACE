@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "brotlipy",
+    "scikit-learn",
+    "pytorch",
+    "torchvision",
+    "torchaudio",
+    "cudatoolkit",
+    "scikit-survival",
+    "torchtuples",
+    "matplotlib",
+    "pycox",
+    "pandas",
+    "easydict",
+    ]
+build-backend = "hatchling.build"
+
+[project]
+name = "SurvTRACE"
+version = "0.0.1"
+authors = [
+  { name="Henry Musto", email="musto101@gmail.com" },
+]
+description = "A package containing an adaption of the SurvTRACE model."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/musto101/SurvTRACE"
+Issues = "https://github.com/musto101/SurvTRACE/issues"
