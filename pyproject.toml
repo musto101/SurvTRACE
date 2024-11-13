@@ -2,10 +2,10 @@
 requires = [
     "brotlipy",
     "scikit-learn",
-    "pytorch",
+    "torch",
     "torchvision",
     "torchaudio",
-    "cudatoolkit",
+    "hatchling",
     "scikit-survival",
     "torchtuples",
     "matplotlib",

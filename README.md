@@ -3,8 +3,8 @@
 This repo provides the implementation of **SurvTRACE** for survival analysis. It is easy to use with only the following codes:
 
 ```python
-from survtrace.dataset import load_data
-from survtrace.model import SurvTraceSingle
+from survtrace.src.survtrace.dataset import load_data
+from survtrace.src.survtrace.model import SurvTraceSingle
 from survtrace import Evaluator
 from survtrace import Trainer
 from survtrace import STConfig
